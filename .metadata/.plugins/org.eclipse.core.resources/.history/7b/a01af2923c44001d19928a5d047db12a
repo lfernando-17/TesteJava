@@ -1,0 +1,22 @@
+package tests;
+
+import org.junit.*;
+
+import control.TorneioTenis;
+
+
+public class TestTorneio {
+	
+	TorneioTenis torneio;
+	
+	@Before
+	public void setup() {
+		torneio = new TorneioTenis();
+	}
+
+	@Test
+	public void testaDerrota() {
+		Assert.assertEquals(-1, torneio.calcularGrupo({'P','P','P','P','P','P'}));
+	}
+
+}

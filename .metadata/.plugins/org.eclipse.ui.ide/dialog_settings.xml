@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\aluno.unilasalle.ACAD\Desktop\TorneioTenis"/>
+			<item value="C:\Users\aluno.unilasalle.ACAD\Downloads\Calculadora-IMC- Qualidade e Teste-20221004T222909Z-001\Calculadora-IMC- Qualidade e Teste"/>
+			<item value="C:\Users\aluno.unilasalle.ACAD\Downloads\POO2022\trabalho poo Eliza~\Trabalho1"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="375"/>
+		<item key="DIALOG_Y_ORIGIN" value="185"/>
+	</section>
+</section>

@@ -1,0 +1,4 @@
+module torneio {
+	exports tests;
+	exports control;
+}

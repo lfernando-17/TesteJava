@@ -1,0 +1,30 @@
+package control;
+
+import java.util.Scanner;
+import java.io.*;
+
+public class TorneioTenis {
+	
+    public int calcularGrupo(char args[]) {
+	int wins = 0;
+	char resp;
+ 
+	for (int i=0; i<args.length -1; i++) {
+	    resp = args[i];
+
+	    if(resp == 'V')
+		wins++;
+	}
+	   System.out.print( wins );
+	if (wins <= 2)
+	    return (3);
+	else if(wins <= 4)
+		return(2);
+	else if(wins <= 6)
+		return(1);
+	else
+		return(-1);
+
+	}
+	    
+ }

@@ -1,0 +1,22 @@
+package tests;
+
+import org.junit.*;
+
+import control.TorneioTenis;
+
+
+public class TestTorneio {
+	
+	TorneioTenis torneio;
+	
+	@Before
+	public void setup() {
+		torneio = new TorneioTenis();
+	}
+
+	@Test
+	public void testBaixoPesoaMuitoGrave() {
+		Assert.assertEquals("Baixo peso muito grave", torneio.calcularGrupo(['P','P','P','P','P','P']));
+	}
+
+}

@@ -1,0 +1,8 @@
+package control;
+
+public class CalculadoraImc {
+
+	public String calcularImc(double peso, double altura, int idade, String sexo) {
+		
+	}
+}

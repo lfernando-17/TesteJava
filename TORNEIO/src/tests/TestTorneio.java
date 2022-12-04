@@ -14,7 +14,7 @@ public class TestTorneio {
 	
 	@Test
 	public void testVitoria() {
-
+		char[] Partidas = {'V','V','P','P','P','V'};
 		Assert.assertEquals(2,tenis.Torneio(Partidas),0);
 	}
 	@Test

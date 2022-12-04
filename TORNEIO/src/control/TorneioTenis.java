@@ -6,7 +6,8 @@ import java.io.*;
 public class TorneioTenis {
     public int Torneio (char[] partidas) {
 	    
-
+	int wins = 0;
+	
 	for (int i=0; i<partidas.length; i++) {
 	    if(partidas[i] == 'V')
 		wins++;
